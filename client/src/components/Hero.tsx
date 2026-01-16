@@ -7,7 +7,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/attached_assets/So-Ock_Kim_Concert_Photographs_reduced_selection_30th_Oct_2005_1768577122599.jpg')",
+          backgroundImage: "url('/attached_assets/so-ock-photo-swoosh.webp')",
           backgroundPosition: "center 20%" // Adjusted to focus on her face/upper body
         }}
       >
