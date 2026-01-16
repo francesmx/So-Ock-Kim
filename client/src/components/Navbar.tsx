@@ -62,8 +62,14 @@ export function Navbar() {
 
         {/* Mobile Menu Toggle */}
         <div className="md:hidden">
-          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <X /> : <Menu />}
+          <button 
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className={cn(
+              "p-2 transition-colors",
+              isScrolled ? "text-foreground" : "text-white"
+            )}
+          >
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
@@ -75,7 +81,7 @@ export function Navbar() {
             <button
               key={link.name}
               onClick={() => scrollToSection(link.id)}
-              className="text-left text-lg font-serif"
+              className="text-left text-lg font-serif text-foreground hover:text-primary transition-colors"
             >
               {link.name}
             </button>
