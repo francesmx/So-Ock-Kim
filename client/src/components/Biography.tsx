@@ -34,7 +34,7 @@ export function Biography() {
           <h2 className="text-4xl md:text-5xl font-serif text-primary">Biography</h2>
           <div className="w-16 h-[1px] bg-accent mb-8"></div>
           
-          <div className="space-y-4 text-muted-foreground font-light leading-relaxed text-lg text-justify">
+          <div className="space-y-4 text-muted-foreground font-light leading-relaxed text-lg">
             <p>
             So-Ock Kim is an internationally acclaimed violinist born in Seoul in 1982 and raised in London from the age of three. At just 15, she became the youngest-ever winner of the prestigious Shell/LSO Competition, performing the Tchaikovsky Violin Concerto with the London Symphony Orchestra at the Barbican. She was later selected for the Young Concert Artists Trust at 19.
 </p><p>
